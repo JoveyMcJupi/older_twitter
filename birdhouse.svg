@@ -1,0 +1,29 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="56px" height="54px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="56px" height="54px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="-1" />
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.8"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(140,140,140)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(181,181,181)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M51.476,34.211 L46.429,31.526 L41.381,53.000 L13.619,53.000 L8.572,31.526 L6.048,34.211 L1.000,31.526 L26.238,2.000 L28.762,2.000 L53.1000,28.842 L51.476,34.211 ZM27.500,47.632 C29.591,47.632 31.286,45.829 31.286,43.605 C31.286,41.382 29.591,39.579 27.500,39.579 C25.409,39.579 23.714,41.382 23.714,43.605 C23.714,45.829 25.409,47.632 27.500,47.632 ZM27.500,20.789 C24.015,20.789 21.191,23.794 21.191,27.500 C21.191,31.206 24.015,34.211 27.500,34.211 C30.985,34.211 33.810,31.206 33.810,27.500 C33.810,23.794 30.985,20.789 27.500,20.789 Z"/>
+</g>
+<path fill="url(#PSgrad_0)"
+ d="M51.476,34.211 L46.429,31.526 L41.381,53.000 L13.619,53.000 L8.572,31.526 L6.048,34.211 L1.000,31.526 L26.238,2.000 L28.762,2.000 L53.1000,28.842 L51.476,34.211 ZM27.500,47.632 C29.591,47.632 31.286,45.829 31.286,43.605 C31.286,41.382 29.591,39.579 27.500,39.579 C25.409,39.579 23.714,41.382 23.714,43.605 C23.714,45.829 25.409,47.632 27.500,47.632 ZM27.500,20.789 C24.015,20.789 21.191,23.794 21.191,27.500 C21.191,31.206 24.015,34.211 27.500,34.211 C30.985,34.211 33.810,31.206 33.810,27.500 C33.810,23.794 30.985,20.789 27.500,20.789 Z"/>
+</svg>
